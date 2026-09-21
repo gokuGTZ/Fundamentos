@@ -1,0 +1,15 @@
+tipo_persona = input("Ingrese su tipo de persona: ")
+
+if (tipo_persona == "estudiante"):
+    print("Bienvenido nuevo estudiante")
+    avance = int(input("ingrese su avance: "))
+    print(type(avance))
+    # and == &
+    # or == ||
+    cantidad_materias = 10
+    if(avance >=80  or cantidad_materias >= 0):
+        print("¡Felicidades! Entras a residencias.")
+if (tipo_persona == "Docente"):
+    print("Bienvenido docente")
+if (tipo_persona == "Visitante"):
+    print("Bienvenido visitante")
